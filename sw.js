@@ -1,4 +1,4 @@
-const CACHE = 'bible-study-guides-v1';
+const CACHE = 'bible-study-guides-v2';
 const ASSETS = [
   './',
   './index.html',
