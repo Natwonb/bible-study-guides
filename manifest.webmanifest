@@ -1,0 +1,24 @@
+{
+  "name": "Bible Study Guides",
+  "short_name": "Bible Study",
+  "description": "Ten Bible topic study guides with quizzes and commentaries.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0f1419",
+  "theme_color": "#1a2d4a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
