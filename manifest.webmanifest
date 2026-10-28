@@ -1,7 +1,7 @@
 {
   "name": "Bible Study Guides",
   "short_name": "Bible Study",
-  "description": "106 Bible topic study guides with quizzes and commentaries.",
+  "description": "142 Bible topic study guides with quizzes and commentaries.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

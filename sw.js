@@ -1,4 +1,4 @@
-const CACHE = 'bible-study-guides-v5';
+const CACHE = 'bible-study-guides-v6';
 const ASSETS = [
   './',
   './index.html',
@@ -14,7 +14,13 @@ const ASSETS = [
   './data/relationships.js',
   './data/books.js',
   './data/people.js',
-  './data/doctrine.js'
+  './data/doctrine.js',
+  './data/disciplines.js',
+  './data/women.js',
+  './data/parable.js',
+  './data/miracle.js',
+  './data/endtimes.js',
+  './data/feasts.js'
 ];
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(ASSETS)).then(() => self.skipWaiting()));
